@@ -1,0 +1,142 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: start;
+}
+
+.sectionOne {
+  width: 1290px;
+  justify-content: start;
+  gap: 60px;
+  align-items: center;
+}
+
+.boxText-title {
+  width: 483px;
+  height: 272px;
+  padding: 0;
+  margin-right: 42px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.text_parr {
+  margin-bottom: 24px;
+}
+
+.text_general {
+  font-size: 16px;
+}
+
+.bannerLanding {
+  width: 801px;
+  height: 551px;
+  background: url('../src/assets/images/banner.png'), #FFFDF8 50% / cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 250px;
+  border-bottom-left-radius: 250px;
+  outline-offset: 10px;
+  border: 1px solid black;
+  position: absolute;
+  top: 120px;
+  right: 0px;
+}
+
+.button_container {
+  width: 454.63px;
+  height: 166px;
+  background: url('../src/assets/images/figuras-line/Dot\ Ornament.png'), #FFFDF8 50% / cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 60px;
+  left: -30px;
+}
+
+.button_special {
+  position: absolute;
+  top: -78px;
+  left: 30px;
+}
+
+.img_circle {
+  width: 129px;
+  height: 129px;
+  border: 1px solid #D9D9D9;
+  border-radius: 100px;
+  position: absolute;
+  top: 100px;
+  right: 650px;
+}
+
+.img_form {
+  width: 140px;
+  height: 178px;
+  border: 4px solid #D9D9D9;
+  border-bottom-right-radius: 100px;
+  position: absolute;
+  top: 550px;
+  right: 40px;
+}
+
+/* section help business*/
+
+.Help_business {
+  width: 483px;
+  height: 272px;
+  padding: 0;
+  margin-right: 42px;
+  margin-top: 300px;
+}
+
+.container_text_principal {
+  width: 1290px;
+}
+
+.container_colors {
+  width: 1290px;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding-bottom: 24px;
+}
+
+.container_blue {
+  width: 383px;
+  height: 218px;
+  padding: 24px 45px 32px 45px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 40px;
+  border: 1px solid #000;
+  background: #D2EAF4;
+  box-shadow: 10px 10px 0px 0px #000;
+}
+
+.container_orange {
+  width: 383px;
+  height: 218px;
+  padding: 24px 45px 32px 45px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 40px;
+  border: 1px solid #000;
+  background: #EFC48F;
+  ;
+  box-shadow: 10px 10px 0px 0px #000;
+}
+
+.container_red {
+  width: 383px;
+  height: 218px;
+  padding: 24px 45px 32px 45px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 40px;
+  border: 1px solid #000;
+  background: #EECFCD;
+  ;
+  box-shadow: 10px 10px 0px 0px #000;
+}

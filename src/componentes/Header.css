@@ -1,0 +1,22 @@
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    /*  justify-content: space-between; */
+    list-style: none;
+}
+
+.logo {
+    width: 155px;
+    height: 30px;
+    background: url('../src/assets/images/UXfactory.png'), #FFFDF8 50% / cover no-repeat;
+    background-size: cover;
+}
+
+.listaMenu {
+    margin-right: 24px;
+}
