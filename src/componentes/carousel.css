@@ -1,0 +1,24 @@
+.carousel_img {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel_img img {
+    width: 570px;
+    height: 372px;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .carousel-item {
+    background: #FFFDF8;;
+    height: 100%; /* Ajustar a necesidades */
+  }
+  
+  .carousel-item img {
+    padding: 10px;
+    width: 550px;
+    height: 372px;
+    object-fit: cover;
+  }
+  
